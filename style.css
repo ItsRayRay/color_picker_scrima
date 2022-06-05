@@ -1,0 +1,72 @@
+*{
+    padding:auto;
+    margin:auto;
+    }
+
+    body {
+        background-color: rgb(228, 228, 228);
+    }
+
+
+.container {
+    margin-top: ;
+    background-color: rgb(255, 255, 255);
+    min-height: 550px;
+    max-width: 550px;
+    border-radius: 15px;
+    margin-top: 50px;
+    border: double 3px rgba(175, 175, 175, 0.541);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 46px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.color1,.color2,.color3,.color4,.color5 {
+    min-width: 20%;
+    min-height: 420px;
+    border-bottom: solid 1px rgba(175, 175, 175, 0.541);
+    border-top: solid 1px rgba(175, 175, 175, 0.541);
+    
+}
+
+.color5{
+    background-color: rgb(207, 170, 170);
+}
+
+.color4{
+    background-color: rgb(112, 53, 53);
+}
+
+.color3{
+    background-color: rgb(250, 0, 0);
+}
+
+.color2{
+    background-color: rgb(40, 136, 76);
+}
+
+.color1{
+    background-color: rgb(248, 202, 202);
+}
