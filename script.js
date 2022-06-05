@@ -1,7 +1,9 @@
 
+   let colorArray = " "
+
+
 
 document.querySelector("button").addEventListener("click", function(){
-
 
     // get value from colorpicker
 
@@ -14,14 +16,21 @@ document.querySelector("button").addEventListener("click", function(){
     color = color.substring(1);
 
 
-
     // fetch api
+    
     fetch("https://www.thecolorapi.com/scheme?hex="+color+"&mode="+mode)
     .then(res => res.json())
-    .then(data => console.log(data) )
-
-
-
-
-
+    .then(data => colorArray = data.colors)
+    
+renderColors()
 } )
+
+
+function renderColors(){
+
+    for (let i = 0; i < colorArray.length; i++) {
+      document.querySelector("#hexcodefooter"+i).textContent = colorArray[i].hex.value
+  }
+
+ 
+}
