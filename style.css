@@ -32,6 +32,7 @@ header {
     background-color: rgb(255, 255, 255);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    display: flex;
 }
 
 footer {
@@ -41,6 +42,7 @@ footer {
     background-color: rgb(255, 255, 255);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: flex;
 }
 
 .color1,.color2,.color3,.color4,.color5 {
