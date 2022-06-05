@@ -26,10 +26,14 @@ renderColors()
 } )
 
 
+
+
 function renderColors(){
 
     for (let i = 0; i < colorArray.length; i++) {
-      document.querySelector("#hexcodefooter"+i).textContent = colorArray[i].hex.value
+
+      document.querySelector("#hexcodefooter"+i).textContent = colorArray[i].hex.value //loops trough the array and displays the hex value and logs it in the footer
+      document.querySelector(".color"+i).style.backgroundColor = colorArray[i].hex.value //loops trough the array and displays the hex value and logs it in the footer
   }
 
  
